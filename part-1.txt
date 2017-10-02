@@ -11,3 +11,22 @@ Film app that keeps track of what users have seen
       +>iewer_id|
       |film_id  |
       +---------+
+
+
+
+
+App that displays the ammount earned
+
++-------+         +-----+
+|WORKER |         |SHIFT|
+|id     |         |id   |
+|name   |         |day  |
+|wage   |         |time |
++-------+         +-----+
+        +---------+
+        |WAGES    |
+        |id       |
+        |worker_id|
+        |shift_id |
+        |paycheck |
+        +---------+
