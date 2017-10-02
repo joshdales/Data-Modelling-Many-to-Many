@@ -1,0 +1,13 @@
+Film app that keeps track of what users have seen
+
++-----+           +------+
+|FILM |           |VIEWER|
+|id   |           |id    |
+|title|           |name  |
+|year |           |age   |
++-----+           +------+
+      +---------+
+      |HISTORY  |
+      +>iewer_id|
+      |film_id  |
+      +---------+
