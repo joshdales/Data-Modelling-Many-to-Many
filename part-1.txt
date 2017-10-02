@@ -43,7 +43,7 @@ App that keeps track of the books you've read
 +----------+     |id           |    |id    |
                  |book_id      |    |name  |
                  |date started |    |age   |
-+------+         |date finsihed|    +------+
++------+         |date finished|    +------+
 |AUTHOR|         |reader_id    |
 |id    |         +-------------+
 |name  |
