@@ -8,14 +8,14 @@ Film app that keeps track of what users have seen
 +-----+           +------+
       +---------+
       |HISTORY  |
-      +>iewer_id|
+      |viewer_id|
       |film_id  |
       +---------+
 
 
 
 
-App that displays the ammount earned
+App that displays the amount earned
 
 +-------+         +-----+
 |WORKER |         |SHIFT|
@@ -30,3 +30,28 @@ App that displays the ammount earned
         |shift_id |
         |paycheck |
         +---------+
+
+
+
+App that keeps track of the books you've read
++----------+
+|BOOK      |
+|id        |
+|author_id |
+|title     |     +-------------+    +------+
+|year      |     |BOOKS READ   |    |READER|
++----------+     |id           |    |id    |
+                 |book_id      |    |name  |
+                 |date started |    |age   |
++------+         |date finsihed|    +------+
+|AUTHOR|         |reader_id    |
+|id    |         +-------------+
+|name  |
++------+
+
++-------+
+|CHAPTER|
+|id     |
+|title  |
+|book_id|
++-------+
