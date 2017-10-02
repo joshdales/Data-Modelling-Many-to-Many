@@ -1,0 +1,68 @@
+1.  A food delivery app that allows users to place orders for dishes from restaurants.
+
++---------+     +-------+
+|RESTRAUNT|     |USER   |
+|id       |     |id     |
+|name     |     |name   |
+|address  |     |address|
+|cusine   |     +-------+
++---------+
+
++------------+
+|DISH        |
+|id          |
+|name        |
+|restraunt_id|
++------------+
+
+
++-------+
+|ORDER  |
+|user_id|
+|dish_id|
++-------+
+
+
+
+2.  An app that airlines might use to keep track of the flights they have scheduled and who the passengers and crew are on each flight.
+
++---------+       +----+
+|PASSENGER|       |CREW|
+|id       |       |id  |
+|name     |       |name|
+|passport |       +----+
++---------+
+
++------------+
+|FLIGHT      |
+|id          |
+|date & time |
++------------+
+
+
++------------+
+|FLIGHT CREW |
+|crew_id     |
+|flight_id   |
+|passenger_id|
++------------+
+
+
+
+
+3.  A music streaming app that allows artists to post tracks, and for listeners to subscribe to artists.
+
++------+         +---------+
+|ARTIST|         |SONG     |
+|id    |         |id       |
+|name  |         |name     |
++------+         |artist_id|
+                 +---------+
+
+
++-----+          +-------------+
+|USER |          |SUBSCRIPTIONS|
+|id   |          |artist_id    |
+|name |          |user_id      |
+|email|          +-------------+
++-----+
